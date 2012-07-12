@@ -1,0 +1,32 @@
+package Ch2;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class Ch2_3Test {
+	@Test
+	public void test() {
+		assertEquals(5, Ch2_3.maxSubListSum(Arrays.asList(2, -8, 3, -2, 4, -10)));
+	}
+
+	@Test
+	public void testIncreasingArray() {
+		assertEquals(10, Ch2_3.maxSubListSum(Arrays.asList(1,2,3,4)));
+	}
+	
+	@Test
+	public void testSingleElementArray() {
+		assertEquals(1, Ch2_3.maxSubListSum(Arrays.asList(1)));
+	}
+	
+	@Test
+	public void testNegativeArray() {
+		assertEquals(0, Ch2_3.maxSubListSum(Arrays.asList(-1,-2,-3)));
+	}
+	
+	@Test
+	public void testNegativeArray() {
+		assertEquals(10, Ch2_3.maxSubListSum(Arrays.asList(-1,-2,-3,10)));
+	}
+}

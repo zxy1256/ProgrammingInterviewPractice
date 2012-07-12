@@ -1,0 +1,9 @@
+package Ch2;
+
+import java.util.List;
+
+public interface Matrix {
+	public double get(final int i, final int j);
+	public List<Integer> getSize();
+
+}
