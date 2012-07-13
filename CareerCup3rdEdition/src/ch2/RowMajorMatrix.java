@@ -1,19 +1,19 @@
-package Ch2;
+package ch2;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 
-class TwoLevelMatrix implements Matrix {
+class RowMajorMatrix implements Matrix {
     private Vector<Vector<Double>> matrix;
     private int row_num;
     private int column_num;
 
-    public TwoLevelMatrix(final int row_num, final int column_num) {
+    public RowMajorMatrix(final int row_num, final int column_num) {
         this(row_num, column_num, 0.0);
     }
 
-    public TwoLevelMatrix(final int row_num, final int column_num, final double init_value) {
+    public RowMajorMatrix(final int row_num, final int column_num, final double init_value) {
         this.row_num = row_num;
         this.column_num = column_num;
         matrix = new Vector<Vector<Double>>(row_num);
@@ -61,4 +61,18 @@ class TwoLevelMatrix implements Matrix {
     
     public int getRowSize() {return row_num;}
     public int getColumnSize() {return column_num;}
+    
+    public static Matrix of(int m, int n, Double... values) {
+    	if (values.length != m*n) {
+    		throw new IllegalArgumentException();
+    	}
+    	Matrix mat = new RowMajorMatrix(m, n, 0.0);
+    	for (int i = 0; i < m; i++) {
+    		for (int j = 0; j < n; j++) {
+    			mat.set(i, j, values[i*n+j]);
+    		}
+    	}
+    	return mat;
+    }
+    
 }

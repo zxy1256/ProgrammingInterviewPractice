@@ -1,4 +1,4 @@
-package Ch2;
+package ch2;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ import java.util.ArrayList;
  *
  */
 public class Ch2_1 {
-    public void resetCrossIfZero(TwoLevelMatrix m) {
+    public void resetCrossIfZero(RowMajorMatrix m) {
         List<Integer> size = m.getSize();
         int row_limit = size.get(0);
         int column_limit = size.get(1);

@@ -1,4 +1,4 @@
-package Ch2;
+package ch2;
 
 /**
  * Example:
