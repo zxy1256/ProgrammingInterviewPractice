@@ -112,3 +112,33 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.core.resources 2 10035 2012-07-12 20:21:31.960
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2012-07-12 21:20:46.835
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-07-17 22:30:14.852 -----------------------------------------------
+eclipse.buildId=R3_7_1
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/sean/workspace/ProgrammingInterviewPractice -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-07-17 23:08:04.305
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-07-22 14:05:25.400 -----------------------------------------------
+eclipse.buildId=R3_7_1
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-07-22 14:22:42.179
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-07-22 15:38:28.065 -----------------------------------------------
+eclipse.buildId=R3_7_1
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-07-22 17:26:47.529
+!MESSAGE Invalid preference page path: XML Syntax

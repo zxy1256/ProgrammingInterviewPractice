@@ -1,5 +1,0 @@
-package Ch2;
-
-public class Ch2_4 {
-	public void rotate_square_matrix_cw(Matrix m); 
-}

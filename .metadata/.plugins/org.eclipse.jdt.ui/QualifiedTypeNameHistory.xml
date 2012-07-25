@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="ch2.Matrix"/>
+<fullyQualifiedTypeName name="ch2.RowMajorMatrix"/>
+<fullyQualifiedTypeName name="ch2.Ch2_8"/>
+<fullyQualifiedTypeName name="ch2.Ch2_8.Result"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="ch12linkedList.SingleLinkedList.Node"/>
+</qualifiedTypeNameHistroy>
