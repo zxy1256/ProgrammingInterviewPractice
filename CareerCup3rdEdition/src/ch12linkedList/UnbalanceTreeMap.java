@@ -141,16 +141,52 @@ public class UnbalanceTreeMap<K,V>
 			} else {
 				e.parent.right = null;
 			}
-			return;
+		}
+		
+		if (e.left != null && e.right == null) {
+			if (e.parent == null) {
+				root = e.left;
+				e.left.parent = root;
+			}
+			
+			if (e == e.parent.left) {
+				e.parent.left = e.left;
+				e.left.parent = e.parent;
+			}
+			
+			if (e == e.parent.right) {
+				e.parent.right = e.left;
+				e.left.parent = e.parent;
+			}
+		}
+		
+		if (e.right != null && e.left == null) {
+			if (e.parent == null) {
+				root = e.right;
+				e.right.parent = root;
+			}
+			
+			if (e == e.parent.left) {
+				e.parent.left = e.right;
+				e.right.parent = e.parent;
+			}
+			
+			if (e == e.parent.right) {
+				e.parent.right = e.right;
+				e.right.parent = e.parent;
+			}
 		}
 		
 		if (e.left != null && e.right != null) {
 			if (e.parent == null) {
 				root = e.left;
+				e.left.parent = root;
 			} else if (e==e.parent.left) {
 				e.parent.left = e.left;
+				e.left.parent = e.parent;
 			} else {
 				e.parent.right = e.left;
+				e.left.parent = e.parent;
 			}
 			
 			Entry<K, V> leftCh = e.left;
@@ -161,5 +197,13 @@ public class UnbalanceTreeMap<K,V>
 			e.right.parent = leftCh;
 			e.right = null;
 		}
+		
+		return;
+	}
+	
+	enum LeftOrRight {LEFT, RIGHT}
+	
+	private void link(Entry<K, V> parent, Entry<K, V> child, LeftOrRight LorR) {
+		
 	}
 }
