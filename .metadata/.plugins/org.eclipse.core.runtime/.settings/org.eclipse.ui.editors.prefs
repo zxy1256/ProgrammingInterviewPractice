@@ -1,3 +1,24 @@
-#Sat Jul 07 08:37:39 PDT 2012
+#Sat Jul 28 19:41:44 PDT 2012
+AbstractTextEditor.Color.Background=25,25,25
+javaScriptOccurrenceIndicationColor=97,97,97
 eclipse.preferences.version=1
+writeOccurrenceIndicationColor=0,0,0
+AbstractTextEditor.Color.Foreground.SystemDefault=false
+AbstractTextEditor.Color.Foreground=255,255,255
+AbstractTextEditor.Color.SelectionBackground=65,76,59
 overviewRuler_migration=migrated_3.1
+lineNumberRuler=true
+deletionIndicationColor=255,0,0
+searchResultIndicationColor=0,0,0
+currentLineColor=34,34,32
+PHPReadOccurrenceIndicationColor=97,97,97
+AbstractTextEditor.Color.SelectionForeground=255,255,255
+filteredSearchResultIndicationColor=0,0,0
+PHPWriteOccurrenceIndicationColor=0,0,0
+printMarginColor=102,102,102
+AbstractTextEditor.Color.Background.SystemDefault=false
+occurrenceIndicationColor=97,97,97
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+lineNumberColor=102,102,102
+AbstractTextEditor.Color.FindScope=25,25,25
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
