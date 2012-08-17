@@ -1,12 +1,11 @@
 package util;
 
+import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Deque;
 import java.util.Iterator;
-import java.util.Map;
-
-import util.UnbalancedTreeMap.Entry;
-
+import java.util.List;
 /**
  * Unbalanced binary search tree.
  * 
@@ -18,13 +17,13 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
     private Node<T> root;
     private int size;
     
-    public class Node<T> {
-        Node<T> parent;
-        Node<T> left;
-        Node<T> right;
-        T key;
+    public class Node<E> {
+        Node<E> parent;
+        Node<E> left;
+        Node<E> right;
+        E key;
 
-        public Node(Node<T> parent, T key) {
+        public Node(Node<E> parent, E key) {
             this.parent = parent;
             this.key = key;
         }
@@ -122,24 +121,37 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
         return true;
     }
 
+    public int size() {
+        return size;
+    }
+    public static <E extends Comparable<E>> BinarySearchTree<E> of(final E... keyArray) {
+        final List<E> keys = Arrays.asList(keyArray);
+        final BinarySearchTree<E> tree = new BinarySearchTree<E>();
+        for (final E key : keys) {
+            tree.insert(key);
+        }
+        return tree;
+    }
+    
     @Override
-    public Iterator iterator() {
+    public Iterator<T> iterator() {
         // TODO Auto-generated method stub
         return null;
     }
 
     // DFSIterable APIs ====================================
     @Override
-    public BSTPreOrderIterator<T> preOrderIterator() {
+    public PreOrderIterator<T> preOrderIterator() {
         // TODO Auto-generated method stub
         return null;
     }
     
-    final class BSTPreOrderIterator<T> implements PreOrderIterator<T> {
+    final class BSTPreOrderIterator implements PreOrderIterator<T> {
         private Node<T> lastReturned;
         private Deque<Node<T>> stack;
         
         public BSTPreOrderIterator(Node<T> first) {
+            stack = new ArrayDeque<Node<T>>();
             stack.push(first);
         }
         
@@ -185,5 +197,58 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
     public BFSIterator<T> bsfIterator() {
         // TODO Auto-generated method stub
         return null;
+    }
+    
+    public final class BSTBFSIterator implements BFSIterator<T> {
+        private Deque<Node<T>> queue;
+        private Deque<Integer> levelQ;
+        Node<T> lastReturned;
+        
+        public BSTBFSIterator(T first) {
+            queue = new ArrayDeque<Node<T>>();
+            enqueueIfNotNull(root);
+            lastReturned = null;
+        }
+        
+        @Override
+        public boolean hasNext() {
+            return queue.isEmpty();
+        }
+
+        @Override
+        public T next() {
+            lastReturned = queue.pollFirst();
+            int lastReturned
+            if (lastReturned.left != null) {
+                queue.addLast(lastReturned.left);
+                levelQ.addLast(e)
+            }
+            
+            enqueueIfNotNull(lastReturned.right);
+            return null;
+        }
+
+        @Override
+        public void remove() {
+            if (lastReturned == null) {
+                throw new IllegalStateException();
+            } else {
+                delete(lastReturned);
+            }
+        }
+
+        @Override
+        public int getLevel() {
+            return 0;
+        }
+        
+        private boolean enqueueIfNotNull(Node<T> node) {
+            if (node == null) {
+                return false;
+            } else {
+                queue.addLast(node);
+                return true;
+            }
+        }
     }
 }
