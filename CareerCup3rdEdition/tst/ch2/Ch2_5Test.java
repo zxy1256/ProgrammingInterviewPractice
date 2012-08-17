@@ -3,6 +3,11 @@ package ch2;
 import java.util.List;
 
 import org.junit.Test;
+
+import careerCup3.ch2.Ch2_5;
+
+import util.Matrix;
+import util.RowMajorMatrix;
 import static org.junit.Assert.assertTrue;
 
 public class Ch2_5Test {

@@ -6,6 +6,8 @@ import java.util.List;
 
 import org.junit.Test;
 
+import careerCup3.ch12.Ch12_2;
+
 public class Ch12_2Test {
 	@Test
 	public void testNoDuplicateElement() {

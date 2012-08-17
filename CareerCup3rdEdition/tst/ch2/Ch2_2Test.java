@@ -2,6 +2,8 @@ package ch2;
 
 import org.junit.Test;
 
+import careerCup3.ch2.Ch2_2;
+
 public class Ch2_2Test {
 
 	@Test

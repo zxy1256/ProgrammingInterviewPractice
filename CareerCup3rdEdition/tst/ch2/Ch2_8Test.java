@@ -2,6 +2,11 @@ package ch2;
 
 import org.junit.Test;
 
+import careerCup3.ch2.Ch2_8;
+
+import util.Matrix;
+import util.RowMajorMatrix;
+
 public class Ch2_8Test {
 	@Test
 	public void Test1 () {

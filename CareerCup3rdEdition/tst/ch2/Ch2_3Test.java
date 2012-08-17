@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import org.junit.Test;
+
+import careerCup3.ch2.Ch2_3;
 public class Ch2_3Test {
 	@Test
 	public void test() {

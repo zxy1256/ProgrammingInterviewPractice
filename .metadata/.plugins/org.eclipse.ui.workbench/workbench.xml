@@ -41,6 +41,20 @@
 <part id="7"/>
 <part id="8"/>
 <part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
 </presentation>
 </folder>
 </info>
@@ -61,9 +75,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/ch2/Ch2_6Test.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="238" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pair.java" partName="Pair.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch2/Pair.java" title="Pair.java" tooltip="CareerCup3rdEdition/src/ch2/Pair.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch2/Pair.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="39" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pair.java" partName="Pair.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/util/Pair.java" title="Pair.java" tooltip="CareerCup3rdEdition/src/util/Pair.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/util/Pair.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_8.java" partName="Ch2_8.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch2/Ch2_8.java" title="Ch2_8.java" tooltip="CareerCup3rdEdition/src/ch2/Ch2_8.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch2/Ch2_8.java"/>
@@ -77,13 +91,69 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch2/Ch2_9.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="36" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_1.java" partName="Ch12_1.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java" title="Ch12_1.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_1.java" partName="Ch12_1.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java" title="Ch12_1.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="249" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SingleLinkedList.java" partName="SingleLinkedList.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch12linkedList/SingleLinkedList.java" title="SingleLinkedList.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/SingleLinkedList.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch12linkedList/SingleLinkedList.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="302" selectionTopPixel="149"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_1Test.java" partName="Ch2_1Test.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/tst/ch2/Ch2_1Test.java" title="Ch2_1Test.java" tooltip="CareerCup3rdEdition/tst/ch2/Ch2_1Test.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/ch2/Ch2_1Test.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalancedTreeMap.java" partName="UnbalancedTreeMap.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeMap.java" title="UnbalancedTreeMap.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeMap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeMap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7272" selectionTopPixel="4559"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalanceTreeMapTest.java" partName="UnbalanceTreeMapTest.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/tst/ch12linkedList/UnbalanceTreeMapTest.java" title="UnbalanceTreeMapTest.java" tooltip="CareerCup3rdEdition/tst/ch12linkedList/UnbalanceTreeMapTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/ch12linkedList/UnbalanceTreeMapTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="343" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_2Test.java" partName="Ch12_2Test.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/tst/ch12linkedList/Ch12_2Test.java" title="Ch12_2Test.java" tooltip="CareerCup3rdEdition/tst/ch12linkedList/Ch12_2Test.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/ch12linkedList/Ch12_2Test.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_2.java" partName="Ch12_2.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch12linkedList/Ch12_2.java" title="Ch12_2.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/Ch12_2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch12linkedList/Ch12_2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="176" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_4.java" partName="Ch12_4.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/careerCup3/ch12/Ch12_4.java" title="Ch12_4.java" tooltip="CareerCup3rdEdition/src/careerCup3/ch12/Ch12_4.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/careerCup3/ch12/Ch12_4.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="406" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSFable.java" partName="BSFable.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/collections/BSFable.java" title="BSFable.java" tooltip="CareerCup3rdEdition/src/collections/BSFable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/collections/BSFable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="76" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSFIterator.java" partName="BSFIterator.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/collections/BSFIterator.java" title="BSFIterator.java" tooltip="CareerCup3rdEdition/src/collections/BSFIterator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/collections/BSFIterator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="120" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalancedTreeSet.java" partName="UnbalancedTreeSet.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeSet.java" title="UnbalancedTreeSet.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeSet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeSet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="88" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_4Test.java" partName="Ch12_4Test.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java" title="Ch12_4Test.java" tooltip="CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="278" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeMap.java" partName="TreeMap.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/util/TreeMap.java" title="TreeMap.java" tooltip="CareerCup3rdEdition/src/util/TreeMap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/util/TreeMap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="805" selectionTopPixel="2598"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalancedTreeMap.java" partName="UnbalancedTreeMap.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/util/UnbalancedTreeMap.java" title="UnbalancedTreeMap.java" tooltip="CareerCup3rdEdition/src/util/UnbalancedTreeMap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/util/UnbalancedTreeMap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="391" selectionOffset="3562" selectionTopPixel="2205"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" partName="BinarySearchTree.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/util/BinarySearchTree.java" title="BinarySearchTree.java" tooltip="CareerCup3rdEdition/src/util/BinarySearchTree.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/util/BinarySearchTree.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3070" selectionTopPixel="1860"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PreOrderIterator.java" partName="PreOrderIterator.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/util/PreOrderIterator.java" title="PreOrderIterator.java" tooltip="CareerCup3rdEdition/src/util/PreOrderIterator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/util/PreOrderIterator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="102" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -149,24 +219,37 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.ui.views.TaskList"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.jdt.junit.ResultView"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@72c93af6" orientation="256" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.29883137"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2996707"/>
+<view id="org.eclipse.jdt.junit.ResultView" ratio="0.39956093"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
 <folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="1"/>
 <part id="0"/>
 </presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@72c93af6" ratio="0.24829674" ratioLeft="328" ratioRight="993" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
@@ -178,16 +261,12 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25313655" ratioLeft="343" ratioRight="1012" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.6589786" ratioLeft="400" ratioRight="207" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="bottomLeft" ratio="0.49917626" ratioLeft="303" ratioRight="304" relationship="4" relative="topLeft">
@@ -203,165 +282,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/ch2/Ch2_8.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/ch2/Ch2_6.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/ch2/Pair.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/tst/ch2/Ch2_5Test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/tst/ch2/Ch2_6Test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/tst/ch2/Ch2_8Test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/ch2/Ch2_9.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/ch12linkedList/SingleLinkedList.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/util/UnbalancedTreeMap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/util/BinarySearchTree.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/util/TreeMap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/util/PreOrderIterator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/util/UnbalancedTreeMap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java"/>
 </editors>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="687" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1312" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="693" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="880" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="718" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1299" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="721" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1310" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="726" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1350" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="1107" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1361" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="1110" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1412" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="1116" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2557" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="1141" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2591" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="1144" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2618" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="1149" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2076" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2060" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2139" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2063" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2803" y="0"/>
 </item>
-<item historyLabel="Pair.java" index="2">
-<position info="not_deleted" x="39" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="0">
+<position info="not_deleted" x="6005" y="0"/>
 </item>
-<item historyLabel="Ch2_6.java" index="1">
-<position info="not_deleted" x="173" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="0">
+<position info="not_deleted" x="6487" y="706"/>
 </item>
-<item historyLabel="Ch2_5Test.java" index="3">
-<position info="not_deleted" x="589" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2803" y="0"/>
 </item>
-<item historyLabel="Ch2_6.java" index="1">
-<position info="not_deleted" x="173" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1435" y="0"/>
 </item>
-<item historyLabel="Ch2_6Test.java" index="4">
-<position info="not_deleted" x="238" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3792" y="0"/>
 </item>
-<item historyLabel="Pair.java" index="2">
-<position info="not_deleted" x="39" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="0">
+<position info="not_deleted" x="6487" y="706"/>
 </item>
-<item historyLabel="Ch2_6Test.java" index="4">
-<position info="not_deleted" x="238" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="0">
+<position info="not_deleted" x="3562" y="391"/>
 </item>
-<item historyLabel="Pair.java" index="2">
-<position info="not_deleted" x="39" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3792" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2012" y="0"/>
+<item historyLabel="TreeMap.java" index="2">
+<position info="not_deleted" x="805" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2084" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1497" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2087" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="774" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2421" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="316" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2335" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1453" y="0"/>
 </item>
-<item historyLabel="Ch2_8Test.java" index="5">
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3900" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="4037" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2881" y="0"/>
+</item>
+<item historyLabel="PreOrderIterator.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Ch2_8Test.java" index="5">
-<position info="not_deleted" x="90" y="0"/>
+<item historyLabel="PreOrderIterator.java" index="3">
+<position info="not_deleted" x="102" y="0"/>
 </item>
-<item historyLabel="Ch2_8Test.java" index="5">
-<position info="not_deleted" x="126" y="0"/>
+<item historyLabel="PreOrderIterator.java" index="3">
+<position info="not_deleted" x="102" y="0"/>
 </item>
-<item historyLabel="Ch2_8Test.java" index="5">
-<position info="not_deleted" x="305" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2881" y="0"/>
 </item>
-<item historyLabel="Ch2_8Test.java" index="5">
-<position info="not_deleted" x="337" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="4">
+<position info="not_deleted" x="3562" y="391"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2335" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="2881" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2424" y="0"/>
+<item historyLabel="PreOrderIterator.java" index="3">
+<position info="not_deleted" x="102" y="0"/>
 </item>
-<item historyLabel="Ch2_8Test.java" index="5">
-<position info="not_deleted" x="337" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3050" y="0"/>
 </item>
-<item historyLabel="Ch2_8.java" index="0">
-<position info="not_deleted" x="2424" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="4">
+<position info="not_deleted" x="3562" y="391"/>
 </item>
-<item historyLabel="Ch2_8Test.java" index="5">
-<position info="not_deleted" x="337" y="0"/>
+<item historyLabel="TreeMap.java" index="2">
+<position info="not_deleted" x="805" y="0"/>
 </item>
-<item historyLabel="Ch2_6.java" index="1">
-<position info="not_deleted" x="173" y="0"/>
+<item historyLabel="Ch12_4Test.java" index="5">
+<position info="not_deleted" x="278" y="0"/>
 </item>
-<item historyLabel="Ch2_9.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="TreeMap.java" index="2">
+<position info="not_deleted" x="805" y="0"/>
 </item>
-<item historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="4">
+<position info="not_deleted" x="3562" y="391"/>
 </item>
-<item historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="203" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3050" y="0"/>
 </item>
-<item historyLabel="SingleLinkedList.java" index="8">
-<position info="not_deleted" x="412" y="0"/>
+<item historyLabel="PreOrderIterator.java" index="3">
+<position info="not_deleted" x="102" y="0"/>
 </item>
-<item historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="203" y="0"/>
+<item historyLabel="TreeMap.java" index="2">
+<position info="not_deleted" x="805" y="0"/>
 </item>
-<item historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="UnbalancedTreeMap.java" index="4">
+<position info="not_deleted" x="3562" y="391"/>
 </item>
-<item historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="110" y="4"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3050" y="0"/>
 </item>
-<item historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3050" y="0"/>
 </item>
-<item historyLabel="SingleLinkedList.java" index="8">
-<position info="not_deleted" x="412" y="0"/>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="3070" y="0"/>
 </item>
-<item historyLabel="SingleLinkedList.java" index="8">
-<position info="not_deleted" x="199" y="0"/>
-</item>
-<item historyLabel="SingleLinkedList.java" index="8">
-<position info="not_deleted" x="302" y="0"/>
-</item>
-<item historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="215" y="0"/>
-</item>
-<item active="true" historyLabel="Ch12_1.java" index="7">
-<position info="not_deleted" x="189" y="0"/>
+<item active="true" historyLabel="PreOrderIterator.java" index="3">
+<position info="not_deleted" x="102" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -369,6 +445,10 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@72c93af6"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -376,42 +456,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PreOrderIterator.java" tooltip="CareerCup3rdEdition/src/util/PreOrderIterator.java">
+<persistable path="/CareerCup3rdEdition/src/util/PreOrderIterator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" tooltip="CareerCup3rdEdition/src/collections/BinarySearchTree.java">
+<persistable path="/CareerCup3rdEdition/src/collections/BinarySearchTree.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalancedTreeMap.java" tooltip="CareerCup3rdEdition/src/collections/UnbalancedTreeMap.java">
+<persistable path="/CareerCup3rdEdition/src/collections/UnbalancedTreeMap.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeMap.java" tooltip="CareerCup3rdEdition/src/collections/TreeMap.java">
+<persistable path="/CareerCup3rdEdition/src/collections/TreeMap.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_4Test.java" tooltip="CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java">
+<persistable path="/CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalancedTreeSet.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeSet.java">
+<persistable path="/CareerCup3rdEdition/src/ch12linkedList/UnbalancedTreeSet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSFInterator.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/BSFInterator.java">
+<persistable path="/CareerCup3rdEdition/src/ch12linkedList/BSFInterator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSFable.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/BSFable.java">
+<persistable path="/CareerCup3rdEdition/src/ch12linkedList/BSFable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_4.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/Ch12_4.java">
+<persistable path="/CareerCup3rdEdition/src/ch12linkedList/Ch12_4.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_2.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/Ch12_2.java">
+<persistable path="/CareerCup3rdEdition/src/ch12linkedList/Ch12_2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_2Test.java" tooltip="CareerCup3rdEdition/tst/ch12linkedList/Ch12_2Test.java">
+<persistable path="/CareerCup3rdEdition/tst/ch12linkedList/Ch12_2Test.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalanceTreeMapTest.java" tooltip="CareerCup3rdEdition/tst/ch12linkedList/UnbalanceTreeMapTest.java">
+<persistable path="/CareerCup3rdEdition/tst/ch12linkedList/UnbalanceTreeMapTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnbalanceTreeMap.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/UnbalanceTreeMap.java">
+<persistable path="/CareerCup3rdEdition/src/ch12linkedList/UnbalanceTreeMap.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_1Test.java" tooltip="CareerCup3rdEdition/tst/ch2/Ch2_1Test.java">
+<persistable path="/CareerCup3rdEdition/tst/ch2/Ch2_1Test.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SingleLinkedList.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/SingleLinkedList.java">
 <persistable path="/CareerCup3rdEdition/src/ch12linkedList/SingleLinkedList.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_1.java" tooltip="CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java">
-<persistable path="/CareerCup3rdEdition/src/ch12linkedList/Ch12_1.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_9.java" tooltip="CareerCup3rdEdition/src/ch2/Ch2_9.java">
-<persistable path="/CareerCup3rdEdition/src/ch2/Ch2_9.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_8Test.java" tooltip="CareerCup3rdEdition/tst/ch2/Ch2_8Test.java">
-<persistable path="/CareerCup3rdEdition/tst/ch2/Ch2_8Test.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_8.java" tooltip="CareerCup3rdEdition/src/ch2/Ch2_8.java">
-<persistable path="/CareerCup3rdEdition/src/ch2/Ch2_8.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pair.java" tooltip="CareerCup3rdEdition/src/ch2/Pair.java">
-<persistable path="/CareerCup3rdEdition/src/ch2/Pair.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_6Test.java" tooltip="CareerCup3rdEdition/tst/ch2/Ch2_6Test.java">
-<persistable path="/CareerCup3rdEdition/tst/ch2/Ch2_6Test.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_6.java" tooltip="CareerCup3rdEdition/src/ch2/Ch2_6.java">
-<persistable path="/CareerCup3rdEdition/src/ch2/Ch2_6.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_5Test.java" tooltip="CareerCup3rdEdition/tst/ch2/Ch2_5Test.java">
-<persistable path="/CareerCup3rdEdition/tst/ch2/Ch2_5Test.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_5.java" tooltip="CareerCup3rdEdition/src/ch2/Ch2_5.java">
-<persistable path="/CareerCup3rdEdition/src/ch2/Ch2_5.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_4.java" tooltip="CareerCup3rdEdition/src/Ch2/Ch2_4.java">
-<persistable path="/CareerCup3rdEdition/src/Ch2/Ch2_4.java"/>
 </file>
 </mruList>
 </workbench>

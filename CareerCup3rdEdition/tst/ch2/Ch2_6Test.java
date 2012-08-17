@@ -5,6 +5,10 @@ import java.util.List;
 
 import org.junit.Test;
 
+import careerCup3.ch2.Ch2_6;
+
+import util.Pair;
+
 public class Ch2_6Test {
 	@Test
 	public void test1() {

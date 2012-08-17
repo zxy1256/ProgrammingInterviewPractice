@@ -2,7 +2,10 @@ package ch2;
 
 import org.junit.Test;
 
-import ch2.RowMajorMatrix;
+import careerCup3.ch2.Ch2_1;
+
+import util.RowMajorMatrix;
+
 
 
 public class Ch2_1Test {
