@@ -1,4 +1,5 @@
 .project
 .classpath
-.metadata/*
+.metadata
+.metadata\.plugin
 *.class

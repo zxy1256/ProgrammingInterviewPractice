@@ -9,7 +9,8 @@
 <fullyQualifiedTypeName name="ch12linkedList.SingleLinkedList.Node"/>
 <fullyQualifiedTypeName name="ch12linkedList.UnbalanceTreeMap"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="ch12linkedList.UnbalancedTreeMap.BSFIterator"/>
+<fullyQualifiedTypeName name="util.PreOrderIterator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

@@ -1,4 +1,4 @@
-#Wed Aug 15 23:31:06 PDT 2012
+#Thu Aug 16 23:08:06 PDT 2012
 semanticHighlighting.annotation.enabled=true
 semanticHighlighting.localVariableDeclaration.color=53,122,146
 java_comment_task_tag=128,0,128
@@ -15,6 +15,7 @@ semanticHighlighting.deprecatedMember.color=255,255,255
 pf_coloring_assignment=255,255,255
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 semanticHighlighting.class.strikethrough=false
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
 java_bracket=255,255,255
 java_string=71,116,136
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ch2.Matrix"><rhs name\="ch2.RowMajorMatrix"/></lhs><lhs name\="java.util.AbstractMap"><rhs name\="ch12linkedList.UnbalanceTreeMap"/></lhs><lhs name\="java.util.Map"><rhs name\="ch12linkedList.UnbalanceTreeMap"/></lhs></history>
@@ -60,7 +61,7 @@ semanticHighlighting.staticMethodInvocation.enabled=true
 semanticHighlighting.class.underline=false
 content_assist_proposals_background=255,255,255
 semanticHighlighting.number.color=71,116,136
-content_assist_number_of_computers=13
+content_assist_number_of_computers=21
 semanticHighlighting.typeArgument.enabled=true
 pf_coloring_value=71,116,136
 org.eclipse.jdt.ui.formatterprofiles.version=12
@@ -71,7 +72,7 @@ org.eclipse.jdt.internal.ui.navigator.layout=2
 semanticHighlighting.deprecatedMember.underline=false
 java_operator=255,255,255
 java_multi_line_comment=140,63,200
-org.eclipse.jface.textfont=1|Monospace|10.0|0|GTK|1|;
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
 semanticHighlighting.method.color=247,197,39
 semanticHighlighting.staticField.enabled=true
 java_single_line_comment=129,70,162

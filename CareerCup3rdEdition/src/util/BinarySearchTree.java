@@ -17,7 +17,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
     private Node<T> root;
     private int size;
     
-    public class Node<E> {
+    public static class Node<E> {
         Node<E> parent;
         Node<E> left;
         Node<E> right;
@@ -29,7 +29,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
         }
     }
 
-    /*
+    /**
      * Return true if the key does not exist and insert success.
      * Return false otherwise. 
      */
@@ -59,9 +59,9 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
 		}
 		
 		if (key.compareTo(p.key) < 0) {
-		    p.left = new Node<T>(null, key);
+		    p.left = new Node<T>(p, key);
 		} else {
-		    p.right = new Node<T>(null, key);
+		    p.right = new Node<T>(p, key);
 		}
 		size++;
         return true;
@@ -107,11 +107,52 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
         }
         return false;
     }
+    
+    public Node<T> getNode(T key) {
+        if (root == null) {
+            return null;
+        }
+        
+        Node<T> c = root;
+        while (c != null) {
+            if (key.compareTo(c.key) < 0 ) {
+                c = c.left;
+            } else if (key.compareTo(c.key) > 0) {
+                c = c.right;
+            } else {
+                return c;
+            }
+        }
+        return null;        
+    }
 
-    public Node<T> successor(Node<T> entry) {
-        return null;
+    public Node<T> successor(final Node<T> node) {
+        if (node == null) {
+            throw new IllegalArgumentException();
+        }
+        if (node.right != null) {
+            return smallestNodeBefore(node.right); 
+        }
+        Node<T> c = node;
+        Node<T> p = node.parent;
+        while (p != null && p.right == c) {
+            c = p;
+            p = c.parent;
+        }
+        return p;
     }
     
+    public Node<T> smallestNodeBefore(final Node<T> node) {
+        if (node == null) {
+            throw new IllegalArgumentException();
+        }
+        Node<T> curr = node;
+        while (curr.left != null) {
+            curr = curr.left;
+        }
+        return curr;
+    }
+
     public boolean putAll(Collection<T> keys) {
         for (final T key: keys) {
             if(!insert(key)) {
@@ -124,6 +165,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
     public int size() {
         return size;
     }
+    
     public static <E extends Comparable<E>> BinarySearchTree<E> of(final E... keyArray) {
         final List<E> keys = Arrays.asList(keyArray);
         final BinarySearchTree<E> tree = new BinarySearchTree<E>();
@@ -133,29 +175,75 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
         return tree;
     }
     
+    public Node<T> firstNode() {
+        if (root == null) {
+            return null;
+        }
+        Node<T> curr = root;
+        while (curr.left != null) {
+            curr = curr.left;
+        }
+        return curr;
+    }
+    
+    public Node<T> lastNode() {
+        if (root == null) {
+            return null;
+        }
+        Node<T> curr = root;
+        while (curr.right != null) {
+            curr = curr.right;
+        }
+        return curr;
+    }
+    
+    private int getDepth(Node<T> node) {
+        int level = 0;
+        if (root == null) {
+            return -1;
+        }
+
+        Node<T> c = root;
+        T key = node.key;
+        while (c != null) {
+            if (key.compareTo(c.key) < 0 ) {
+                c = c.left;
+                level++;
+            } else if (key.compareTo(c.key) > 0) {
+                c = c.right;
+                level++;
+            } else {
+                return level;
+            }
+        }
+        throw new IllegalArgumentException("Invalid node");
+    }
+    
+    // Iterable API ========================================
     @Override
     public Iterator<T> iterator() {
         // TODO Auto-generated method stub
         return null;
     }
 
-    // DFSIterable APIs ====================================
+    /**
+     * DFSIterable API
+     */
     @Override
     public PreOrderIterator<T> preOrderIterator() {
-        // TODO Auto-generated method stub
-        return null;
+        return new DFSTPreOrderIterator(firstNode());
     }
     
-    final class BSTPreOrderIterator implements PreOrderIterator<T> {
+    private final class DFSTPreOrderIterator implements PreOrderIterator<T> {
         private Node<T> lastReturned;
         private Deque<Node<T>> stack;
         
-        public BSTPreOrderIterator(Node<T> first) {
+        public DFSTPreOrderIterator(Node<T> first) {
             stack = new ArrayDeque<Node<T>>();
             stack.push(first);
         }
         
-        public BSTPreOrderIterator() {
+        public DFSTPreOrderIterator() {
             stack.push(root);
         }
         
@@ -195,37 +283,45 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
 
     @Override
     public BFSIterator<T> bsfIterator() {
-        // TODO Auto-generated method stub
-        return null;
+        return new BSTBFSIterator(root);
     }
     
-    public final class BSTBFSIterator implements BFSIterator<T> {
-        private Deque<Node<T>> queue;
+    private final class BSTBFSIterator implements BFSIterator<T> {
+        private Deque<Node<T>> nodeQ;
         private Deque<Integer> levelQ;
-        Node<T> lastReturned;
+        private Node<T> lastReturned;
+        private int lastReturnedLevel = -1;
         
-        public BSTBFSIterator(T first) {
-            queue = new ArrayDeque<Node<T>>();
-            enqueueIfNotNull(root);
+        public BSTBFSIterator(Node<T> first) {
+            nodeQ = new ArrayDeque<Node<T>>();
+            levelQ = new ArrayDeque<Integer>();
+            if (root != null) {
+                nodeQ.addLast(root);
+                levelQ.addLast(1);
+            }
             lastReturned = null;
+            lastReturnedLevel = 0;
         }
         
         @Override
         public boolean hasNext() {
-            return queue.isEmpty();
+            return !(nodeQ.isEmpty());
         }
 
         @Override
         public T next() {
-            lastReturned = queue.pollFirst();
-            int lastReturned
+            lastReturned = nodeQ.pollFirst();
+            lastReturnedLevel = levelQ.pollFirst();
             if (lastReturned.left != null) {
-                queue.addLast(lastReturned.left);
-                levelQ.addLast(e)
+                nodeQ.addLast(lastReturned.left);
+                levelQ.addLast(lastReturnedLevel+1);
             }
             
-            enqueueIfNotNull(lastReturned.right);
-            return null;
+            if (lastReturned.right != null) {
+                nodeQ.addLast(lastReturned.right);
+                levelQ.addLast(lastReturnedLevel+1);
+            }
+            return lastReturned.key;
         }
 
         @Override
@@ -239,16 +335,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
 
         @Override
         public int getLevel() {
-            return 0;
-        }
-        
-        private boolean enqueueIfNotNull(Node<T> node) {
-            if (node == null) {
-                return false;
-            } else {
-                queue.addLast(node);
-                return true;
-            }
-        }
+            return lastReturnedLevel;
+        }        
     }
 }
