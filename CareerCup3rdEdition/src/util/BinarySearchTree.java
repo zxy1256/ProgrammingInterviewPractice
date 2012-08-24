@@ -231,32 +231,32 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
      */
     @Override
     public PreOrderIterator<T> preOrderIterator() {
-        return new DFSTPreOrderIterator(firstNode());
+        return new BSTTPreOrderIterator(root);
     }
     
-    private final class DFSTPreOrderIterator implements PreOrderIterator<T> {
+    private final class BSTTPreOrderIterator implements PreOrderIterator<T> {
         private Node<T> lastReturned;
         private Deque<Node<T>> stack;
         
-        public DFSTPreOrderIterator(Node<T> first) {
+        public BSTTPreOrderIterator(Node<T> first) {
             stack = new ArrayDeque<Node<T>>();
             stack.push(first);
         }
         
-        public DFSTPreOrderIterator() {
-            stack.push(root);
-        }
-        
         public T next() {
             Node<T> next = stack.pop();
-            stack.push(next.right);
-            stack.push(next.left);
+            if (next.right != null) {
+                stack.push(next.right);
+            }
+            if (next.left != null) {
+                stack.push(next.left);
+            }
             return next.key;
         }
 
         @Override
         public boolean hasNext() {
-            return stack.isEmpty();
+            return !(stack.isEmpty());
         }
 
         @Override
@@ -264,15 +264,51 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
             if (lastReturned == null) {
                 throw new IllegalStateException();
             }
-            
             delete(lastReturned);
         }
     }
     
     @Override
     public InOrderIterator<T> inOrderIterator() {
-        // TODO Auto-generated method stub
-        return null;
+        return new BSTInOrderIterator(firstNode());
+    }
+    
+    private final class BSTInOrderIterator implements InOrderIterator<T> {
+        private Node<T> lastReturned;
+        private Node<T> nextToReturn;
+        
+        public BSTInOrderIterator(Node<T> first) {     
+            if (first == null) {
+                throw new IllegalArgumentException();
+            }
+            lastReturned = null;
+            nextToReturn = first;
+        }
+        
+        @Override
+        public boolean hasNext() {
+            if (lastReturned == null) {
+                return successor(nextToReturn) != null;
+            } else {
+                return successor(lastReturned) != null;
+            }
+                
+        }
+        @Override
+        public T next() {
+            if (lastReturned != null) {
+                lastReturned = successor(lastReturned);
+                return lastReturned.key;
+            } else {
+                lastReturned = nextToReturn;
+                return nextToReturn.key;
+            }
+        }
+        @Override
+        public void remove() {
+            delete(lastReturned);
+        }
+        
     }
 
     @Override
@@ -280,7 +316,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements BFSIterable<T>
         // TODO Auto-generated method stub
         return null;
     }
-
+    
     @Override
     public BFSIterator<T> bsfIterator() {
         return new BSTBFSIterator(root);
