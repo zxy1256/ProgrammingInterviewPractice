@@ -1,4 +1,4 @@
-package ch2;
+package careerCup3.ch2;
 
 import org.junit.Test;
 

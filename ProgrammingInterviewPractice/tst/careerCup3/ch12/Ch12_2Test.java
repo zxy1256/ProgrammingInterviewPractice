@@ -1,4 +1,4 @@
-package ch12linkedList;
+package careerCup3.ch12;
 
 import java.util.Arrays;
 import java.util.LinkedList;

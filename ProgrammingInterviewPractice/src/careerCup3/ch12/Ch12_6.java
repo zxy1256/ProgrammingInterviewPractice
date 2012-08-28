@@ -21,8 +21,11 @@ public class Ch12_6 {
             if (!s2.isEmpty()) {
                 sum += s2.pop();
             }
-            carryon = sum > 10 ? 1 : 0;
-            result.add(0, sum > 10 ? sum - 10 : sum);
+            carryon = sum >= 10 ? 1 : 0;
+            result.add(0, sum >= 10 ? sum - 10 : sum);
+        }
+        if (carryon > 0) {
+            result.add(0, carryon);
         }
         return result;
     }
