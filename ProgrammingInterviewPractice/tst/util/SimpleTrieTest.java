@@ -9,30 +9,29 @@ import org.junit.Test;
 public class SimpleTrieTest {
     @Test
     public void testPut() {
-        Trie trie = new SimpleTrie();
+        Trie<Integer> trie = new SimpleTrie<Integer>();
         assertEquals(0, trie.size());
-        trie.put("Banana");
+        trie.put("Banana", 1);
         assertEquals(1, trie.size());
-        trie.put("anana");
+        trie.put("anana", 2);
         assertEquals(2, trie.size());
-        trie.put("nana");
-        assertTrue(trie.contains("Banana"));
-        assertFalse(trie.contains("Apple"));
-        assertFalse(trie.contains("Banananana"));
-        assertFalse(trie.contains("a"));
-        assertEquals(3, trie.size());
+        trie.put("nana", 3);
+        assertTrue(trie.get("Banana").equals(1));
+        assertTrue(trie.containsKey("Banana"));
+        assertFalse(trie.containsKey("Apple"));
+        assertFalse(trie.containsKey("Banananana"));
+        assertFalse(trie.containsKey("a"));
+        assertTrue(trie.containsAsPrefix("a"));
     }
 
     @Test
     public void testRemove() {
-        Trie trie = new SimpleTrie();
-        trie.put("Banana");
-        trie.put("anana");
-        trie.put("ana");
+        Trie<Integer> trie = new SimpleTrie<Integer>();
+        trie.put("Banana", 1);
+        trie.put("anana", 2);
+        trie.put("ana", 3);
         assertTrue(trie.remove("anana"));
-        assertFalse(trie.contains("anana"));
-        trie.put("Bank");
-        trie.remove("Bank");
-        assertFalse(trie.contains("Bank"));
+        assertFalse(trie.containsKey("anana"));
     }
+
 }

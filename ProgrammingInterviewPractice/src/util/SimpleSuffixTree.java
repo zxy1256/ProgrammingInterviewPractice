@@ -9,20 +9,20 @@ package util;
  * 
  */
 public class SimpleSuffixTree implements SuffixTree {
-    private Trie mTrie;
+    private Trie<Integer> mTrie;
 
     public SimpleSuffixTree(String s) {
-        mTrie = new SimpleTrie();
+        mTrie = new SimpleTrie<Integer>();
         if (s == null) {
             return;
         }
         for (int i = 0; i < s.length(); i++) {
-            mTrie.put(s.substring(i));
+            mTrie.put(s.substring(i), i);
         }
     }
 
     @Override
-    public int find(String p) {
-        return 0;
+    public int find(final String p) {
+        return mTrie.get(key);
     }
 }

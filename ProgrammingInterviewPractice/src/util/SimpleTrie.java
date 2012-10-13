@@ -1,6 +1,7 @@
 package util;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -13,49 +14,67 @@ import java.util.TreeMap;
  * @author sean
  * 
  */
-public class SimpleTrie implements Trie {
-    private static class Node {
-        String label;
-        Map<String, Node> children;
-        Node parent;
+public class SimpleTrie<V> implements Trie<V> {
+    public static String TERMINAL_CHAR = "$";
 
-        public Node(String label, Node parent) {
+    private static class Node<V> {
+        String label;
+        Map<String, Node<V>> children;
+        Node<V> parent;
+        V value;
+
+        Node(String label, Node<V> parent, V value) {
             this.label = label;
             this.parent = parent;
-            children = new TreeMap<String, Node>();
+            children = new TreeMap<String, Node<V>>();
+            this.value = value;
         }
 
-        public void put(List<String> keyChars) {
+        void put(List<String> keyChars, V value) {
             if (keyChars == null || keyChars.isEmpty()) {
                 return;
             }
             final String edgeLabel = keyChars.get(0);
             if (!children.containsKey(edgeLabel)) {
-                children.put(edgeLabel, new Node(edgeLabel, this));
+                children.put(edgeLabel, new Node<V>(edgeLabel, this, null));
             }
             if (keyChars.size() > 1) {
                 children.get(edgeLabel).put(
-                        keyChars.subList(1, keyChars.size()));
+                        keyChars.subList(1, keyChars.size()), value);
+            } else {
+                children.get(edgeLabel).value = value;
             }
         }
 
-        public boolean contains(List<String> keyChars) {
+        V get(List<String> keyChars) {
             if (keyChars == null || keyChars.isEmpty()) {
-                return true;
+                return value;
             }
             final String edgeLabel = keyChars.get(0);
             if (children.containsKey(edgeLabel)) {
                 if (keyChars.size() > 1) {
-                    return children.get(edgeLabel).contains(
+                    return children.get(edgeLabel).get(
                             keyChars.subList(1, keyChars.size()));
                 } else {
-                    return true;
+                    return children.get(edgeLabel).value;
                 }
             }
-            return false;
+            return null;
         }
 
-        public boolean remove(List<String> keyChars) {
+        Map<String, V> getAsPrefix(List<String> prefixChars) {
+            if (prefixChars == null || prefixChars.isEmpty()) {
+                // return all the 
+                return children
+            }
+            final String edgeLabel = prefixChars.get(0);
+            if (children)
+            Collection<V> result = new ArrayList<V>();
+            
+            return result;
+        }
+
+        boolean remove(List<String> keyChars) {
             if (keyChars == null || keyChars.isEmpty()) {
                 return true;
             }
@@ -65,7 +84,7 @@ public class SimpleTrie implements Trie {
                     children.remove(edgeLabel);
                     return true;
                 } else {
-                    Node child = children.get(edgeLabel);
+                    Node<V> child = children.get(edgeLabel);
                     child.remove(keyChars.subList(1, keyChars.size()));
                     if (child.children.isEmpty()) {
                         children.remove(edgeLabel);
@@ -77,20 +96,20 @@ public class SimpleTrie implements Trie {
         }
     }
 
-    private final Node root;
+    private final Node<V> root;
     private int size;
 
     public SimpleTrie() {
-        root = new Node(null, null);
+        root = new Node<V>(null, null, null);
     }
 
     @Override
-    public void put(String key) {
-        if (key == null) {
+    public void put(String key, V value) {
+        if (key == null || value == null) {
             throw new IllegalArgumentException();
         }
         List<String> keyChars = breakToSingleCharList(key);
-        root.put(keyChars);
+        root.put(keyChars, value);
         size++;
     }
 
@@ -100,17 +119,13 @@ public class SimpleTrie implements Trie {
         for (char c : keyCharArray) {
             keyChars.add(String.valueOf(c));
         }
-        keyChars.add("$");
+        keyChars.add(TERMINAL_CHAR);
         return keyChars;
     }
 
     @Override
-    public boolean contains(String key) {
-        if (key == null) {
-            throw new NullPointerException();
-        }
-        List<String> keyChars = breakToSingleCharList(key);
-        return root.contains(keyChars);
+    public boolean containsKey(String key) {
+        return get(key) != null;
     }
 
     @Override
@@ -131,4 +146,26 @@ public class SimpleTrie implements Trie {
         return size;
     }
 
+    @Override
+    public V get(String key) {
+        if (key == null) {
+            throw new NullPointerException();
+        }
+        List<String> keyChars = breakToSingleCharList(key);
+        return root.get(keyChars);
+    }
+
+    @Override
+    public boolean containsAsPrefix(String prefix) {
+        return !(getByPrefix(prefix).isEmpty());
+    }
+
+    @Override
+    public Collection<V> getByPrefix(String prefix) {
+        if (prefix == null) {
+            throw new NullPointerException();
+        }
+        List<String> keyChars = breakToSingleCharList(prefix);
+        return null;
+    }
 }
