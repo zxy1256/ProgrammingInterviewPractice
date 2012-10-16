@@ -20,10 +20,10 @@ public class BinarySearchTree<T extends Comparable<T>> implements
     private int size;
 
     public static class Node<E> {
-        Node<E> parent;
-        Node<E> left;
-        Node<E> right;
-        E key;
+        public Node<E> parent;
+        public Node<E> left;
+        public Node<E> right;
+        public E key;
 
         public Node(Node<E> parent, E key) {
             this.parent = parent;
