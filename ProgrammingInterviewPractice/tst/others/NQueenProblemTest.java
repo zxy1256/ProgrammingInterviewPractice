@@ -6,6 +6,6 @@ public class NQueenProblemTest {
     @Test
     public void testEightQueens() {
         NQueenProblem problem = new NQueenProblem();
-        problem.solve(8);
+        problem.solve(12);
     }
 }
