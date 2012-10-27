@@ -28,7 +28,9 @@ public class SerializeBinaryTreeTest {
     }
 
     private void test(SerializeBinaryTree problem, Node root) {
-        String s = problem.binaryTreeToString(root);
+        String s = problem.writeBinaryTree(root);
         System.out.println(s);
+        Node tree = problem.readBinaryTree(s);
+        System.out.println(problem.writeBinaryTree(tree));
     }
 }
