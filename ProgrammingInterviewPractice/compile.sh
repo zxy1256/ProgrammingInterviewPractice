@@ -1,1 +1,1 @@
-javac $1
+javac -d build $1 

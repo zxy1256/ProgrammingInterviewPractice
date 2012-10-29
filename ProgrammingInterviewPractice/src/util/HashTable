@@ -1,0 +1,22 @@
+package util;
+
+import java.util.Map.Entry;
+
+public class HashTable<K, V> {
+    static class Entry<K, V> implements {
+        K key;
+        V value;
+        Entry<K, V> next;        
+        
+        public Entry(K k, V v, Entry<K, V> n) {
+            key = k;
+            value = v;
+            next = n;
+        }
+
+    }
+    
+    Entry[] table;
+    
+    public 
+}

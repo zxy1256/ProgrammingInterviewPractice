@@ -1,0 +1,51 @@
+package util.graph;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.Map;
+
+import util.graph.DirectedGraph.Vertex;
+
+public class GraphUtil {
+    public static <V, E> void BFS(DirectedGraph<V, E> g, Vertex<V> source,
+            VertexVisitor<V> visitor) {
+        Map<Vertex<V>, Boolean> visited = new HashMap<Vertex<V>, Boolean>();
+        for (Vertex<V> v : g.vertexs()) {
+            visited.put(v, Boolean.FALSE);
+        }
+
+        visited.put(source, Boolean.TRUE);
+
+        Deque<Vertex<V>> q = new ArrayDeque<Vertex<V>>();
+        q.add(source);
+        while (!q.isEmpty()) {
+            Vertex<V> curr = q.poll();
+
+            visitor.visit(curr);
+
+            visited.put(curr, Boolean.TRUE);
+            for (Vertex<V> neighbor : g.getNeighbors(curr)) {
+                if (!visited.get(neighbor)) {
+                    q.add(neighbor);
+                }
+            }
+        }
+    }
+
+    public static <V, E> void DFS(DirectedGraph<V, E> g, Vertex<V> source,
+            VertexVisitor<V> visitor) {
+        Map<Vertex<V>, Boolean> visited = new HashMap<Vertex<V>, Boolean>();
+        for (Vertex<V> v : g.vertexs()) {
+            visited.put(v, Boolean.FALSE);
+        }
+
+    }
+
+    public static <V, E> void topologicalSort(DirectedGraph<V, E> g) {
+    }
+
+    interface VertexVisitor<V> {
+        void visit(Vertex<V> v);
+    }
+}
