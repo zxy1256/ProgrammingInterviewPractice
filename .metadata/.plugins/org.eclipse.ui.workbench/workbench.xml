@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="37" version="2.0">
+<workbench progressCount="39" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1020" x="350" y="289">
 <fastViewData fastViewLocation="1024"/>
@@ -22,7 +22,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -51,16 +51,10 @@
 <part id="16"/>
 <part id="17"/>
 <part id="18"/>
-<part id="19"/>
-<part id="20"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_5Test.java" partName="Ch2_5Test.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/tst/ch2/Ch2_5Test.java" title="Ch2_5Test.java" tooltip="CareerCup3rdEdition/tst/ch2/Ch2_5Test.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/ch2/Ch2_5Test.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="589" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch2_6.java" partName="Ch2_6.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/ch2/Ch2_6.java" title="Ch2_6.java" tooltip="CareerCup3rdEdition/src/ch2/Ch2_6.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch2/Ch2_6.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="173" selectionTopPixel="0"/>
@@ -113,10 +107,6 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/ch12linkedList/Ch12_2.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="176" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_4.java" partName="Ch12_4.java" path="C:/cygwin/home/zhaxinyu/Code/Java/ProgrammingInterviewPractice/CareerCup3rdEdition/src/careerCup3/ch12/Ch12_4.java" title="Ch12_4.java" tooltip="CareerCup3rdEdition/src/careerCup3/ch12/Ch12_4.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/careerCup3/ch12/Ch12_4.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="540" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSFable.java" partName="BSFable.java" path="/home/sean/workspace/ProgrammingInterviewPractice/CareerCup3rdEdition/src/collections/BSFable.java" title="BSFable.java" tooltip="CareerCup3rdEdition/src/collections/BSFable.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/collections/BSFable.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="76" selectionTopPixel="0"/>
@@ -124,14 +114,6 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch12_4Test.java" partName="Ch12_4Test.java" path="C:/cygwin/home/zhaxinyu/Code/Java/ProgrammingInterviewPractice/CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java" title="Ch12_4Test.java" tooltip="CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/ch12linkedList/Ch12_4Test.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PreOrderIterator.java" partName="PreOrderIterator.java" path="C:/cygwin/home/zhaxinyu/Code/Java/ProgrammingInterviewPractice/CareerCup3rdEdition/src/util/PreOrderIterator.java" title="PreOrderIterator.java" tooltip="CareerCup3rdEdition/src/util/PreOrderIterator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/util/PreOrderIterator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" partName="BinarySearchTree.java" path="C:/cygwin/home/zhaxinyu/Code/Java/ProgrammingInterviewPractice/CareerCup3rdEdition/src/util/BinarySearchTree.java" title="BinarySearchTree.java" tooltip="CareerCup3rdEdition/src/util/BinarySearchTree.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/src/util/BinarySearchTree.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8594" selectionTopPixel="4928"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTreeTest.java" partName="BinarySearchTreeTest.java" path="C:/cygwin/home/zhaxinyu/Code/Java/ProgrammingInterviewPractice/CareerCup3rdEdition/tst/util/BinarySearchTreeTest.java" title="BinarySearchTreeTest.java" tooltip="CareerCup3rdEdition/tst/util/BinarySearchTreeTest.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CareerCup3rdEdition/tst/util/BinarySearchTreeTest.java"/>
@@ -324,31 +306,22 @@
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.8809013" ratioLeft="821" ratioRight="111" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.8809013" ratioLeft="821" ratioRight="111" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
@@ -357,31 +330,24 @@
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.xsl.jaxp.debug.ui.view1" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.3644068" ratioLeft="215" ratioRight="375" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -396,16 +362,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/util/BinarySearchTree.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/tst/util/BinarySearchTreeTest.java"/>
 <editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=CareerCup3rdEdition/C:\/Program Files\/Java\/jdk1.6.0_31\/jre\/lib\/rt.jar&lt;java.lang(Integer.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/util/PreOrderIterator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/tst/ch2/Ch2_5Test.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CareerCup3rdEdition/src/careerCup3/ch12/Ch12_4.java"/>
 </editors>
-<item historyLabel="BinarySearchTreeTest.java" index="1">
-<position info="not_deleted" x="2038" y="0"/>
-</item>
-<item historyLabel="BinarySearchTreeTest.java" index="1">
-<position info="not_deleted" x="2076" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
 <item historyLabel="BinarySearchTreeTest.java" index="1">
 <position info="not_deleted" x="2076" y="0"/>
 </item>
@@ -544,9 +504,12 @@
 <item historyLabel="BinarySearchTree.java" index="0">
 <position info="not_deleted" x="8516" y="0"/>
 </item>
-<item active="true" historyLabel="BinarySearchTree.java" index="0">
+<item historyLabel="BinarySearchTree.java" index="0">
 <position info="not_deleted" x="8594" y="0"/>
 </item>
+<item historyLabel="PreOrderIterator.java" index="3"/>
+<item historyLabel="Ch2_5Test.java" index="4"/>
+<item active="true" historyLabel="Ch12_4.java" index="5"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
